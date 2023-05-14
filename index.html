@@ -1,11 +1,50 @@
-!<!DOCTYPE html>
-<<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>CRAP PORTFOLIO</title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Learning HTML</title>
+   </head>
+   <body>
+      <h1 style="color : purple;">HTML FORMS</h1>
+      <form>
+       <label for="username">Enter Username:</label>
+       <input type="text"  id="username" name="username" placeholder="username" required>
+       <br>
+       <br>
+       <label for="email">Enter Email: </label>
+       <input type="email" id="email" name="email" placeholder="email" required>
+       <br><br>
+       <label for="password">Enter Password:</label>
+       <input type="password" id="password" name="password" placeholder="password" required>
 
-  </body>
+       <p>Select your age</p>
+
+       <input type="radio" name="age" value="0-25" id="Option-1" required  >
+       <label for="Option-1">0-25
+       </label>
+       <BR><BR>
+       <input type="radio" name="age" value="26-50" id="Option-2">
+       <label for="Option-2">26-50</label>
+       <br><br>
+       <label for="Question">Security Question:</label>
+       <select name="Question" id="Question">
+         <option value="q1">What is ur pet name?</option>
+         <option value="q2">What is ur  favourite colour?</option>
+         <option value="q3">What is ur game?</option>
+         <option value="q4">What is ur height?</option>
+       </select>
+       <br><br>
+       <label for="answer">Answer:</label>
+      <input type="text" id="answer">
+      <br><br>
+
+       <label for="bio">Enter your Bio</label>
+       <br>
+      <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter your bio...."></textarea>
+      <br><br>
+      <input type="submit" value="Submit the Form">
+
+      </input>  </form>
+
+
+   </body>
 </html>
